@@ -30,6 +30,10 @@ a:hover {
     color: #4e5aa4 !important;
 }
 
+p, ol, ul { 
+    line-height: 200% !important;
+}
+
 .h1, h1, .h2, h2, .h3, h3, .h4, .h5, .h6, h4, h5, h6, strong { 
     font-family: 'Inter', Arial, sans-serif;
     font-weight: 700 !important;
@@ -40,7 +44,7 @@ h2 {
     font-size: 32px !important;
 }
 
-h4 {
+h2.h4 {
     font-size: 16px !important;
 }
 
@@ -152,6 +156,31 @@ footer ul.nav.navbar-nav {
 
 /****************** CUSTOM CSS ******************/
 
-.logo {
-    
+.logo-ipsos img {
+    width: 154px;
+    height: auto;
+}
+
+.logo-divider {
+    width: 5px;
+    height: 50px;
+    margin: 0 16px;
+    background: #E9EAEB;
+}
+
+.icon-info {
+    font-size: 36px;
+    color: #007DB9;
+}
+
+.btn-outline-primary {
+    color: #5C6AC1;
+    font-weight: 700;
+    border: 1px solid #5C6AC1;
+    border-radius: 6px;
+}
+
+.btn-outline-primary:hover {
+    background-color:  #5C6AC1;
+    border: 1px solid #5C6AC1;
 }
